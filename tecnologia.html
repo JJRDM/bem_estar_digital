@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            margin: 0;
+            padding: 20px;
+            line-height: 2.0;
+            background: linear-gradient(135deg, #e3f0ff 0%, #b3d1f7 100%), 
+                        url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            background-blend-mode: multiply;
+        }
+
+        .container_list {
+           list-style: none;
+           padding: 10px;
+           display: flex;
+           justify-content: center;
+           margin: 0 auto;
+           width: 85%;
+           background-color: #1565c0;
+           border: solid #0d47a1;
+           border-radius: 10px;
+           gap: 20px;
+        }
+
+        .main_container {
+            border: solid #1976d2;
+            text-align: center;
+            background-color: #fff;
+            color: #1565c0;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 85%;
+            padding: 20px 20px 3% 20px;
+            box-shadow: 0px 4px 16px rgba(21, 101, 192, 0.10);
+        }
+
+        .main_container p {
+            text-shadow: none;
+            color: #333;
+        }
+
+        .container {
+            border: solid #1976d2;
+            background-color: #fff;
+            color: #1565c0;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 85%;
+            padding: 20px;
+            box-shadow: 0px 4px 16px rgba(21, 101, 192, 0.10);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            text-shadow: 1px 1px 2px #b3d1f7;
+            text-align: center;
+            color: #1565c0;
+        }
+
+        h2, h3 {
+            color: #1565c0;
+            text-shadow: none;
+            border-bottom: 2px solid #1565c0;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        p, li {
+            margin: 5px 5px;
+            font-size: 18px;
+            text-shadow: none;
+            color: #333;
+        }
+
+        a {
+            color: #0d47a1;
+            text-decoration: none;
+        }
+
+        .page_links {
+            color: #0d47a1;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 auto;
+            display: block;
+            border: 2px solid #1976d2;
+            box-shadow: 0px 4px 10px rgba(21, 101, 192, 0.15);
+        }
+
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            color: #0d47a1;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            h2, h3 {
+                font-size: 20px;
+            }
+            .container, .main_container {
+                width: 98%;
+                padding: 12px;
+            }
+            p, li {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul class="container_list">
+                <li><a href="index.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Início</a></li>
+                <li><a href="saude.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Saúde</a></li>
+                <li><a href="tecnologia.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Tecnologia</a></li>
+                <li><a href="eventos.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Eventos</a></li>
+                <li><a href="contato.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main_container">
+        <h1>Tecnologia para Todos</h1>
+        <p>Dicas práticas para usar a tecnologia no dia a dia, com segurança, autonomia e mais qualidade de vida para pessoas com mais idade.</p>
+    </div>
+    <div class="container">
+        <h2>📱 Uso Seguro do Celular</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80" alt="Pessoa idosa usando smartphone">
+            <figcaption>Celulares facilitam a comunicação e o acesso à informação.</figcaption>
+        </figure>
+        <p>🔒 Ative senhas ou biometria para proteger seu aparelho.</p>
+        <p>📲 Aprenda a instalar e atualizar aplicativos úteis, como WhatsApp, bancos e saúde.</p>
+        <p>🔔 Use alarmes e lembretes para compromissos e medicamentos.</p>
+        <p>📞 Faça chamadas de vídeo para manter contato com familiares e amigos.</p>
+    </div>
+    <div class="container">
+        <h2>💻 Internet com Segurança</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Pessoa idosa navegando na internet">
+            <figcaption>Internet segura é fundamental para aproveitar os benefícios da tecnologia.</figcaption>
+        </figure>
+        <p>🛡️ Nunca compartilhe senhas ou dados pessoais por mensagens ou ligações.</p>
+        <p>⚠️ Desconfie de promoções e sorteios recebidos por e-mail ou WhatsApp.</p>
+        <p>🔗 Acesse apenas sites confiáveis e verifique se possuem "cadeado" na barra de endereço.</p>
+        <p>👨‍💻 Peça ajuda a alguém de confiança ao receber mensagens suspeitas.</p>
+    </div>
+    <div class="container">
+        <h2>🖥️ Redes Sociais e Comunicação</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" alt="Pessoa idosa usando redes sociais">
+            <figcaption>Redes sociais aproximam pessoas e promovem o convívio social.</figcaption>
+        </figure>
+        <p>👍 Use Facebook, WhatsApp e Instagram para conversar, compartilhar fotos e acompanhar notícias.</p>
+        <p>🔕 Gerencie notificações para evitar distrações e excesso de informações.</p>
+        <p>👥 Participe de grupos de interesse, mas evite compartilhar informações pessoais.</p>
+        <p>🚫 Bloqueie e denuncie perfis que enviem mensagens indesejadas ou ofensivas.</p>
+    </div>
+    <div class="container">
+        <h2>🛒 Compras e Serviços Online</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b3029?auto=format&fit=crop&w=800&q=80" alt="Pessoa idosa fazendo compras online">
+            <figcaption>Compras online trazem praticidade, mas exigem atenção à segurança.</figcaption>
+        </figure>
+        <p>🛍️ Prefira sites conhecidos e com boa reputação para comprar.</p>
+        <p>💳 Nunca salve dados do cartão em computadores públicos ou compartilhados.</p>
+        <p>📦 Acompanhe o status dos pedidos e desconfie de ofertas muito vantajosas.</p>
+        <p>📞 Em caso de dúvida, peça ajuda a familiares ou amigos antes de finalizar uma compra.</p>
+    </div>
+    <div class="container">
+        <h2>🎓 Aprendizado Digital</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80" alt="Pessoa idosa aprendendo no computador">
+            <figcaption>Aprender novas tecnologias é possível em qualquer idade.</figcaption>
+        </figure>
+        <p>📚 Busque cursos gratuitos de informática e internet para idosos.</p>
+        <p>🎥 Assista vídeos no YouTube sobre como usar aplicativos e navegar com segurança.</p>
+        <p>📝 Pratique o uso do computador e do celular no dia a dia.</p>
+        <p>🤝 Compartilhe dúvidas e aprendizados com amigos e familiares.</p>
+    </div>
+    <div class="container">
+        <h2>🌐 Links Úteis de Tecnologia para Idosos</h2>
+        <ul style="text-align: left;">
+            <li>
+                <a href="https://www.saude.gov.br/saude-de-a-z/saude-da-pessoa-idosa" target="_blank" rel="noopener">
+                    Cartilha de Segurança Digital para Idosos – Ministério da Saúde
+                </a>
+            </li>
+            <li>
+                <a href="https://www.safernet.org.br/site/idosos" target="_blank" rel="noopener">
+                    SaferNet – Internet Segura para Idosos
+                </a>
+            </li>
+            <li>
+                <a href="https://canaldoidoso.com.br/tecnologia/" target="_blank" rel="noopener">
+                    Canal do Idoso – Tecnologia
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=QwQwQwQwQwQ" target="_blank" rel="noopener">
+                    Vídeo: Dicas de Segurança Digital para Idosos – Canal Doutor Ajuda
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=2QwQwQwQwQw" target="_blank" rel="noopener">
+                    Vídeo: Como Usar o WhatsApp – Canal Maturidade Digital
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=3QwQwQwQwQw" target="_blank" rel="noopener">
+                    Vídeo: Internet Segura para Idosos – SaferNet Brasil
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer style="
+        background-color: #fff;
+        color: #1565c0;
+        text-align: center;
+        padding: 32px 20px 20px 20px;
+        border-top: 2px solid #0d47a1;
+        margin-top: 40px;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px -2px 12px rgba(21,101,192,0.10);
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+    ">
+        <p style="margin: 0 0 8px 0;">
+            📞 <strong>Fale Conosco:</strong>
+            <a href="mailto:jesse.junior@cs.unicid.edu.br" style="color: #1565c0; text-decoration: underline; font-weight: bold;">
+                jesse.junior@cs.unicid.edu.br
+            </a>
+        </p>
+        <p style="margin: 0;">
+            © 2025 <strong>Bem Estar Digital</strong>. Todos os direitos reservados.
+        </p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Suaviza a transição de fundo ao carregar
+            document.body.style.transition = "background 1s, color 0.8s";
+
+            // Realça containers ao passar o mouse (mantendo branco)
+            document.querySelectorAll('.container').forEach(function(container) {
+                container.style.transition = "box-shadow 0.4s";
+                container.addEventListener('mouseenter', function() {
+                    container.style.boxShadow = "0px 8px 24px rgba(0,0,0,0.18)";
+                    container.style.backgroundColor = "#fff";
+                    container.style.color = "#1565c0";
+                });
+                container.addEventListener('mouseleave', function() {
+                    container.style.boxShadow = "0px 4px 16px rgba(21, 101, 192, 0.10)";
+                    container.style.backgroundColor = "#fff";
+                    container.style.color = "#1565c0";
+                });
+            });
+
+            // Melhora o background da página com animação de gradiente branco e azul
+            let colors = [
+                [255, 255, 255], // branco
+                [173, 216, 230], // azul claro
+                [0, 123, 255],   // azul médio
+                [25, 25, 112]    // azul escuro
+            ];
+            let step = 0;
+            let colorIndices = [0, 1, 2, 3];
+            let gradientSpeed = 0.002;
+
+            function updateGradient() {
+                let c0_0 = colors[colorIndices[0]];
+                let c0_1 = colors[colorIndices[1]];
+                let c1_0 = colors[colorIndices[2]];
+                let c1_1 = colors[colorIndices[3]];
+
+                let istep = 1 - step;
+                let r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+                let g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+                let b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+                let color1 = "rgb(" + r1 + "," + g1 + "," + b1 + ")";
+
+                let r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+                let g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+                let b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+                let color2 = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
+
+                document.body.style.background = "linear-gradient(135deg, " + color1 + ", " + color2 + "), url('https://www.transparenttextures.com/patterns/paper-fibers.png')";
+                document.body.style.backgroundBlendMode = "multiply";
+
+                step += gradientSpeed;
+                if (step >= 1) {
+                    step = 0;
+                    colorIndices[0] = colorIndices[1];
+                    colorIndices[2] = colorIndices[3];
+                    colorIndices[1] = (colorIndices[1] + 1) % colors.length;
+                    colorIndices[3] = (colorIndices[3] + 1) % colors.length;
+                }
+                requestAnimationFrame(updateGradient);
+            }
+            updateGradient();
+        });
+    </script>
+</body>
+</html>
