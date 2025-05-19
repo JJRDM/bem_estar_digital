@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            margin: 0;
+            padding: 20px;
+            line-height: 2.0;
+            background: linear-gradient(135deg, #e3f0ff 0%, #b3d1f7 100%),
+                url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            background-blend-mode: multiply;
+        }
+
+        .container_list {
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: 85%;
+            background-color: #1565c0;
+            border: solid #0d47a1;
+            border-radius: 10px;
+            gap: 20px;
+        }
+
+        .main_container {
+            border: solid #1976d2;
+            text-align: center;
+            background-color: #fff;
+            color: #1565c0;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 85%;
+            padding: 20px 20px 3% 20px;
+            box-shadow: 0px 4px 16px rgba(21, 101, 192, 0.10);
+        }
+
+        .main_container p {
+            text-shadow: none;
+            color: #333;
+        }
+
+        .container {
+            border: solid #1976d2;
+            background-color: #fff;
+            color: #1565c0;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 85%;
+            padding: 20px;
+            box-shadow: 0px 4px 16px rgba(21, 101, 192, 0.10);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 2px #b3d1f7;
+            text-align: center;
+            color: #1565c0;
+        }
+
+        h2,
+        h3 {
+            color: #1565c0;
+            text-shadow: none;
+            border-bottom: 2px solid #1565c0;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        p,
+        li {
+            margin: 5px 5px;
+            font-size: 18px;
+            text-shadow: none;
+            color: #333;
+        }
+
+        a {
+            color: #0d47a1;
+            text-decoration: none;
+        }
+
+        .page_links {
+            color: #0d47a1;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 auto;
+            display: block;
+            border: 2px solid #1976d2;
+            box-shadow: 0px 4px 10px rgba(21, 101, 192, 0.15);
+        }
+
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            color: #0d47a1;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            h2,
+            h3 {
+                font-size: 20px;
+            }
+
+            .container,
+            .main_container {
+                width: 98%;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul class="container_list">
+                <li><a href="main_page.html"
+                        style="color: #ffffff; text-decoration: none; font-weight: bold;">Início</a></li>
+                <li><a href="saude.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Saúde</a>
+                </li>
+                <li><a href="tecnologia.html"
+                        style="color: #ffffff; text-decoration: none; font-weight: bold;">Tecnologia</a></li>
+                <li><a href="eventos.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Eventos</a>
+                </li>
+                <li><a href="contato.html" style="color: #ffffff; text-decoration: none; font-weight: bold;">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main_container">
+        <h1>Saúde e Bem-Estar</h1>
+        <p>Confira dicas essenciais para cuidar da saúde física, mental e emocional, com orientações práticas para o dia
+            a dia.</p>
+    </div>
+    <div class="container">
+        <h2>🍎 Alimentação Saudável</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+                alt="Prato colorido com frutas e verduras">
+            <figcaption>Inclua frutas e verduras diariamente para uma alimentação equilibrada.</figcaption>
+        </figure>
+        <p>✅ Inclua frutas e verduras todos os dias — pelo menos 5 porções variadas.</p>
+        <p>✅ Dê preferência a alimentos naturais e caseiros, evitando produtos industrializados.</p>
+        <p>✅ Reduza o sal, açúcar e gordura em excesso nas refeições.</p>
+        <p>✅ Beba pelo menos 2 litros de água por dia — mesmo sem sentir sede.</p>
+    </div>
+    <div class="container">
+        <h2>🚶 Atividade Física Regular</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2d471c?auto=format&fit=crop&w=800&q=80"
+                alt="Pessoa caminhando ao ar livre">
+            <figcaption>Exercícios regulares ajudam na saúde física e mental.</figcaption>
+        </figure>
+        <p>🏃‍♂️ Caminhe todos os dias por pelo menos 30 minutos, em local seguro e ventilado.</p>
+        <p>🧘‍♀️ Pratique exercícios leves como alongamento, yoga ou dança.</p>
+        <p>🗓️ Estabeleça uma rotina e evite o sedentarismo.</p>
+        <p>👨‍⚕️ Faça avaliação médica antes de iniciar qualquer nova atividade.</p>
+    </div>
+    <div class="container">
+        <h2>🛌 Sono e Descanso</h2>
+        <figure>
+            <img src="https://www.freepik.com/free-photo/high-angle-anxious-woman-laying-bed_27830415.htm#fromView=search&page=1&position=11&uuid=081fd5e2-0bd7-4a60-8505-f26ed8dd0584&query=sono+"
+                alt="Pessoa dormindo tranquilamente">
+            <figcaption>Um sono de qualidade é essencial para o bem-estar.</figcaption>
+        </figure>
+        <p>🕰️ Mantenha horários regulares para dormir e acordar.</p>
+        <p>📴 Desligue televisão e celular pelo menos 30 minutos antes de dormir.</p>
+        <p>🌙 Crie um ambiente tranquilo e silencioso no quarto.</p>
+        <p>😴 Se tiver dificuldades para dormir, converse com um profissional de saúde.</p>
+    </div>
+    <div class="container">
+        <h2>😊 Bem-estar Emocional</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                alt="Pessoas sorrindo e conversando">
+            <figcaption>O contato social e atividades prazerosas fortalecem o emocional.</figcaption>
+        </figure>
+        <p>💬 Mantenha contato frequente com familiares, amigos ou vizinhos.</p>
+        <p>🎨 Participe de atividades que gerem prazer: ouvir música, pintar, cuidar de plantas, ler.</p>
+        <p>🤝 Busque grupos de convivência ou atividades comunitárias.</p>
+        <p>🧠 Cuide da saúde mental — se sentir tristeza ou ansiedade, procure ajuda profissional.</p>
+    </div>
+    <div class="container">
+        <h2>💊 Cuidados com Medicamentos</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1588776814546-ec7e8c1b5b6b?auto=format&fit=crop&w=800&q=80"
+                alt="Caixa organizadora de medicamentos">
+            <figcaption>Organize e siga corretamente o uso dos medicamentos.</figcaption>
+        </figure>
+        <p>🗃️ Organize os remédios em caixinhas diárias ou semanais.</p>
+        <p>⏰ Use alarmes ou aplicativos como lembrete dos horários.</p>
+        <p>👨‍⚕️ Siga sempre a prescrição médica — não tome por conta própria.</p>
+        <p>🔄 Faça revisões periódicas dos medicamentos com o seu médico.</p>
+    </div>
+    <div class="container">
+        <h2>📱 Tecnologia a Favor da Saúde</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80"
+                alt="Pessoa usando smartphone para saúde">
+            <figcaption>Use a tecnologia para monitorar e melhorar sua saúde.</figcaption>
+        </figure>
+        <p>📲 Use aplicativos de saúde para controlar pressão, lembrar de remédios e acompanhar exames.</p>
+        <p>📞 Faça chamadas de vídeo com amigos e familiares para manter a conexão afetiva.</p>
+        <p>🎥 Assista vídeos com atividades físicas, alimentação saudável ou meditação guiada.</p>
+        <p>🛡️ Tenha atenção com golpes online — nunca forneça senhas ou dados pessoais por mensagens.</p>
+    </div>
+    <footer>
+        <p style="margin: 0 0 8px 0;">
+            📞 <strong>Fale Conosco:</strong>
+            <a href="mailto:jesse.junior@cs.unicid.edu.br"
+                style="color: #1565c0; text-decoration: underline; font-weight: bold;">
+                jesse.junior@cs.unicid.edu.br
+            </a>
+        </p>
+        <p style="margin: 0;">
+            © 2025 <strong>Bem Estar Digital</strong>. Todos os direitos reservados.
+        </p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Suaviza a transição de fundo ao carregar
+            document.body.style.transition = "background 1s, color 0.8s";
+
+            // Realça containers ao passar o mouse (mantendo branco)
+            document.querySelectorAll('.container').forEach(function (container) {
+                container.style.transition = "box-shadow 0.4s";
+                container.addEventListener('mouseenter', function () {
+                    container.style.boxShadow = "0px 8px 24px rgba(0,0,0,0.18)";
+                    container.style.backgroundColor = "#fff";
+                });
+                container.addEventListener('mouseleave', function () {
+                    container.style.boxShadow = "0px 4px 16px rgba(21, 101, 192, 0.10)";
+                    container.style.backgroundColor = "#fff";
+                });
+            });
+
+            // Melhora o background da página com animação de gradiente branco e azul
+            let colors = [
+                [255, 255, 255], // branco
+                [173, 216, 230], // azul claro
+                [0, 123, 255],   // azul médio
+                [25, 25, 112]    // azul escuro
+            ];
+            let step = 0;
+            let colorIndices = [0, 1, 2, 3];
+            let gradientSpeed = 0.002;
+
+            function updateGradient() {
+                let c0_0 = colors[colorIndices[0]];
+                let c0_1 = colors[colorIndices[1]];
+                let c1_0 = colors[colorIndices[2]];
+                let c1_1 = colors[colorIndices[3]];
+
+                let istep = 1 - step;
+                let r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+                let g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+                let b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+                let color1 = "rgb(" + r1 + "," + g1 + "," + b1 + ")";
+
+                let r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+                let g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+                let b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+                let color2 = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
+
+                document.body.style.background = "linear-gradient(135deg, " + color1 + ", " + color2 + "), url('https://www.transparenttextures.com/patterns/paper-fibers.png')";
+                document.body.style.backgroundBlendMode = "multiply";
+
+                step += gradientSpeed;
+                if (step >= 1) {
+                    step = 0;
+                    colorIndices[0] = colorIndices[1];
+                    colorIndices[2] = colorIndices[3];
+                    colorIndices[1] = (colorIndices[1] + 1) % colors.length;
+                    colorIndices[3] = (colorIndices[3] + 1) % colors.length;
+                }
+                requestAnimationFrame(updateGradient);
+            }
+            updateGradient();
+        });
+    </script>
+</body>
+
+</html>
